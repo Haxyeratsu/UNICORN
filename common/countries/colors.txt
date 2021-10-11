@@ -1,0 +1,74 @@
+ETF = {
+	color = rgb { 10 75 190 }
+	color_ui = rgb { 10 75 190 }
+}
+
+EUR = {
+	color = rgb { 60 0 219 }
+	color_ui = rgb { 60 0 219 }
+}
+
+ARC = {
+	color = rgb { 42 19 218 }
+	color_ui = rgb { 42 19 218 }
+}
+
+SE1 = {
+	color = rgb { 112 135 255 }
+	color_ui = rgb { 112 135 255 }
+}
+
+SE2 = {
+	color = rgb { 12 98 245 }
+	color_ui = rgb { 12 96 245 }
+}
+
+POZ = {
+ 	color = rgb { 165 36 66 }
+ 	color_ui = rgb { 165 36 66 }
+}
+
+OXZ = {
+ 	color = rgb { 68 148 28 }
+ 	color_ui = rgb { 68 148 28 }
+}
+
+ZLF = {
+ 	color = rgb { 165 35 65 }
+ 	color_ui = rgb { 165 35 65 }
+}
+
+SE4 = {
+	color = rgb { 112 135 255 }
+	color_ui = rgb { 112 135 255 }
+}
+
+SE5 = {
+	color = rgb { 112 135 255 }
+	color_ui = rgb { 112 135 255 }
+}
+
+SE6 = {
+	color = rgb { 112 135 255 }
+	color_ui = rgb { 112 135 255 }
+}
+
+SE7 = {
+	color = rgb { 112 135 255 }
+	color_ui = rgb { 112 135 255 }
+}
+
+MON = {
+	color = rgb { 178 175 189 }
+	color_ui = rgb { 178 175 189 }
+}
+
+GRA = {
+	color = rgb { 60 40 60 }
+	color_ui = rgb { 110 110 110 }
+}
+
+IHC = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

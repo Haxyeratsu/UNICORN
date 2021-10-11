@@ -1,0 +1,4 @@
+SE3 = {
+ 	color = rgb { 165 36 66 }
+ 	color_ui = rgb { 165 36 66 }
+}

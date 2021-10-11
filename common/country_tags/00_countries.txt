@@ -1,0 +1,40 @@
+#########################
+### UNIVERSAL CENTURY ###
+#########################
+ETF	= "countries/Earth_Federation.txt"
+EUR	= "countries/Europe.txt"
+POZ = "countries/Principality_of_Zeon.txt"
+CR3 = "countries/Core 3.txt"
+CY9 = "countries/Colony 9.txt"
+TRM = "countries/Tigerbaum.txt"
+QTM = "countries/Quintzem.txt"
+MHL = "countries/Mahal.txt"
+OXZ = "countries/Orthodox Zeon.txt"
+ZLF	= "countries/Zeon's Liberation Front.txt"
+ARC = "countries/Arcadia.txt"
+SE1 = "countries/Side1.txt"
+SE2 = "countries/Side2.txt"
+SE4 = "countries/Side4.txt"
+SE5 = "countries/Side5.txt"
+SE6 = "countries/Side6.txt"
+SE7 = "countries/Side7.txt"
+MON = "countries/Moon.txt"
+GRA = "countries/Granada.txt"
+IHC = "countries/Inhabitable Colony.txt"
+#####################
+### POST DISASTER ###
+#####################
+#SAU = "countries/Strategic Alliance Union.txt"
+#OCF = "countries/Oceanian Federation.txt"
+#ACU = "countries/African Union.txt"
+#ABR = "countries/ARBRAU.txt"
+#####################
+###### DEFAULT ######
+#####################
+GER = "countries/Germany.txt"
+SOV = "countries/Soviet Union.txt"
+USA = "countries/USA.txt"
+JAP = "countries/Japan.txt"
+ENG = "countries/United Kingdom.txt"
+FRA = "countries/France.txt"
+ITA = "countries/Italy.txt"

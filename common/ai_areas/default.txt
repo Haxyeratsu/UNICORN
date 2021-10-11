@@ -1,0 +1,38 @@
+areas = {
+
+	earth = {
+		continents = { 
+			earth
+		}
+	}
+
+	north_america = {
+		continents = { 
+			north_america 
+		}
+	}
+
+	outer_space = {
+		continents = { 
+			outer_space 
+		}
+	}
+
+	africa = {
+		continents = { 
+			africa 
+		}		
+	}
+
+	asia = {
+		continents = { 
+			asia 
+		}
+	}
+
+	middle_east = {
+		continents = { 
+			middle_east 
+		}
+	}
+}
