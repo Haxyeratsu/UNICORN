@@ -1,0 +1,64 @@
+﻿capital = 373
+add_ideas = {
+	inhabitable_colony
+
+	#laws
+	civilian_economy
+	limited_conscription
+	export_focus
+}
+
+set_research_slots = 0
+set_stability = 0.0
+set_war_support = 0.0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "76.1.1"
+	election_frequency = 400
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "No Leadership"
+	desc = "POLITICS_PROVISORY_DESC"
+	picture = " "
+	expire = "0200.1.1"
+	ideology = conservatism
+}
+
+create_country_leader = {
+	name = "No Leadership"
+	desc = "POLITICS_PROVISORY_DESC"
+	picture = " "
+	expire = "0200.1.1"
+	ideology = contolism
+}
+
+create_country_leader = {
+	name = "No Leadership"
+	desc = "POLITICS_PROVISORY_DESC"
+	picture = " "
+	expire = "0200.1.1"
+	ideology = despotism
+}
+
+create_country_leader = {
+	name = "No Leadership"
+	desc = "POLITICS_PROVISORY_DESC"
+	picture = " "
+	expire = "0200.1.1"
+	ideology = anarchist_communism
+}
+
+create_country_leader = {
+	name = "No Leadership"
+	desc = "POLITICS_PROVISORY_DESC"
+	picture = " "
+	expire = "0200.1.1"
+	ideology = spacenoid_supremacy_ideology
+}

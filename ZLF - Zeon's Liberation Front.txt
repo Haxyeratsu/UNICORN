@@ -1,0 +1,89 @@
+﻿capital = 388
+
+add_ideas = {
+
+	#laws
+	volunteer_only
+	isolation
+	closed_economy
+}
+
+set_technology = {
+	infantry_weapons = 1
+	mtg_transport = 1
+}
+
+set_research_slots = 1
+set_stability = 0.50
+set_war_support = 1.0
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 100
+}
+
+# Prime Minister
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "POLITICS_NO_LEADER_DESC"
+	picture = " "
+	expire = "0089.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "POLITICS_NO_LEADER_DESC"
+	picture = " "
+	expire = "0080.1.1"
+	ideology = spacenoid_supremacy_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "No Leader"
+	desc = "POLITICS_NO_LEADER_DESC"
+	picture = " "
+	expire = "0080.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Zeon's Loyalists"
+	portrait_path = "gfx/leaders/POZ/"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Zabi's Supporters"
+	portrait_path = "gfx/leaders/POZ/"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}

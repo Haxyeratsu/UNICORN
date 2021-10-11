@@ -1,0 +1,43 @@
+﻿capital = 365
+set_major = yes
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+#Diplomacy
+add_ideas = {
+
+	#laws
+	war_economy
+	service_by_requirement
+	closed_economy
+}
+
+set_research_slots = 3
+set_stability = 0.48
+set_war_support = 0.8
+
+set_politics = {
+	ruling_party = contolism
+	last_election = "0077.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 10
+	contolism = 80
+	communism = 0
+	neutrality = 10
+}
+
+#Leaders
+create_country_leader = {
+	name = "Kycilia Zabi"
+	desc = "POLITICS_KYCILIA_LEGITIMACY_ZEON_DESC"
+	picture = "Kycilia_legitimacy.dds"
+	expire = "0096.1.1"
+	ideology = sideism
+}
