@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_ms_research"
+		texturefile = "gfx/event_pictures/report_event_ms_research.dds"
+	}
+}

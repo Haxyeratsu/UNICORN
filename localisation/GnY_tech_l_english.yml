@@ -1,0 +1,50 @@
+﻿l_english:
+ ###################
+ #####Interface#####
+ ###################
+ ZEO_MOBILESUITS_TITLE_WEAPONS:0 "ZEONIC MOBILE SUITS"
+ ETF_TANKS_TITLE_ARMOR:0 "EARTHNOID VEHICLES"
+ POZ_TANKS_TITLE_ARMOR:0 "ZEONIC VEHICLES"
+ ###################
+ #### VEHICLES #####
+ ###################
+ MBT:0 "MBT"
+ zeon_armor_tech_unlock:0 "Unlock Zeonic Vehicles"
+ magella_attack_equipment:0 "HT-01B Magella Attack"
+ magella_attack_equipment_short:0 "Magella Attack"
+ magella_attack:0 "Magella Attack"
+ ###################
+ #####ZEONIC MS#####
+ ###################
+ ZEO_mobilesuits_folder:0 "Mobile Suits"
+ ZEO_mobilesuits_folder_desc:0 "Mobile suits their variants and weapons from Zeon."
+ ms_04_prototype_zaku:0 "MS-04 Prototype Zaku"
+ ms_04_prototype_zaku_desc:0 "An improved version of the MS-03 prototype, equipped with a small thermonuclear reactor ZAS-X7, with a mobility that is more than twice that of the MS-03. Armor is also enhanced, and finally it became an MS that could withstand actual battles."
+ zaku_I_ET:0 "MS-05A Zaku I Early Type"
+ MS-05B_Zaku_I:0 "MS-O5B Zaku I"
+ MS-06_Zaku_II:0 "MS-06 Zaku II"
+ ###################
+ #####RENPOU MS#####
+ ###################
+ renpou_ms_tech_unlock:0 "Unlock Federation's Mobile Suits"
+ rx-75-4_guntank:0 "RX-75-4 Guntank"
+ rx_75_4_guntank_equipment:0 "RX-75 Guntank"
+ rx_75_guntank_MPT_equipment:0 "RX-75 Guntank Mass Production Type"
+ rx-78-1_gundam_equipment:0 "RX-78-1 Gundam"
+ rx_78_2_gundam_equipment:0 "RX-78-2 Gundam"
+ rx_77_2_guncannon_equipment:0 "RX-77-2 Guncannon"
+ rmv-1_guntank_II_equipment:0 "RMV-1 Guntank II"
+ rx_79_g_equipment:0 "RX-79 Ground Type"
+ ###################
+ #####DOCTRINES#####
+ ###################
+ modern_warfare:0 "Modern Warfare"
+ ###################
+ #####SPACESHIP#####
+ ###################
+ spaceship_equipment:0 "Spaceships"
+ ZEO_musai_light_cruiser:0 "Musai Class"
+ ZEO_chivvay_heavy_cruiser:0 "Chivvay Class"
+ ETF_salamis_cruiser:0 "Salamis Class"
+ ETF_magellan_battleship:0 "Magellan Class"
+ ETF_alexandria_cruiser:0 "Alexandria Class"

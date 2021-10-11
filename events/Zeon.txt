@@ -1,0 +1,359 @@
+﻿add_namespace = zeon
+
+country_event = {
+	id = zeon.0
+	title = zeon.0.t
+	desc = zeon.0.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+	hidden = yes 
+	trigger = {
+		tag = POZ
+		has_start_date > 0076.1.1
+	}
+}
+
+country_event = { #Introductory dialog
+	id = zeon.1
+	title = zeon.1.t
+	desc = zeon.1.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = spacenoid_guerrillas
+		hidden_effect = {
+			activate_mission = POZ_extend_munzo_support
+		}
+	}
+			
+	option = {
+		name = "zeon.1.a"
+	}
+}
+
+country_event = { #PurgedLoyalists
+	id = zeon.2
+	title = zeon.2.t
+	desc = zeon.2.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+	hidden = yes 
+	
+	trigger = {
+		POZ = {
+			exists = yes
+			has_completed_focus = POZ_purge_zeons_loyalists
+		}
+	}
+
+	immediate = {
+		POZ = {
+			set_party_name = { 
+    			ideology = contolism
+   				long_name = "No Particular Movement"
+			    name = "Absent Movement" 
+			}			
+			create_country_leader = {
+				name = "No Leadership"
+				desc = "POLITICS_NO_LEADERSHIP_DESC"
+				picture = "	"
+				expire = "0100.1.1"
+				ideology = sideism
+				traits = {
+					
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = zeon.3
+	title = zeon.3.t
+	desc = zeon.3.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	trigger = {
+		original_tag = POZ
+	}
+}
+
+country_event = {
+	id = zeon.4
+	title = zeon.4.t
+	desc = zeon.4.d
+	picture = GFX_report_event_election_vote	
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {	
+		original_tag = POZ
+		has_completed_focus = POZ_kycilias_zeon
+	}
+
+	immediate = {		
+		set_global_flag = kycilias_coup_detat
+	}
+
+	option = { # Pick Kycilia
+		name = zeon.4.a
+		trigger = { is_ai = no }
+
+		OXZ = {
+			# Moon States
+			set_state_owner = 365
+			set_state_controller = 365
+			set_state_owner = 363
+			set_state_controller = 363
+			set_state_owner = 358
+			set_state_controller = 358
+			set_state_owner = 179
+			set_state_controller = 179
+			set_state_owner = 362
+			set_state_controller = 362
+			set_state_owner = 366
+			set_state_controller = 366
+			set_state_owner = 369
+			set_state_controller = 369
+			set_state_owner = 368
+			set_state_controller = 368
+			set_state_owner = 371
+			set_state_controller = 371
+
+			load_obb = OXZ_civil_war
+			change_tag_from = ROOT
+
+			transfer_units_fraction= {
+				target = POZ
+				size = 0.3
+				stockpile_ratio = 0.3
+				army_ratio = 0.3
+				navy_ratio = 0.25
+				air_ratio = 0.2
+				keep_unit_leaders_trigger = {
+					has_trait = trait_POZ_reformist
+				}
+			}
+
+			declare_war_on = {
+				target = POZ
+				type = civil_war
+			}
+
+			declare_war_on = {
+				target = ETF
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+}
+
+country_event = { #KyciliasCoup
+	id = zeon.5
+	title = zeon.5.t
+	desc = zeon.5.d
+	picture = GFX_report_event_election_vote	
+	is_triggered_only = no 
+	fire_only_once = no
+	hidden = no
+
+	trigger = {	
+		has_global_flag = kycilias_coup_detat
+		POZ = {
+			has_completed_focus = POZ_kycilias_zeon
+		}
+	}
+
+	immediate = {		
+		OXZ = {
+			add_civil_war_target = POZ
+			transfer_units_fraction= {
+				target = POZ
+				size = 0.3
+				stockpile_ratio = 0.3
+				army_ratio = 0.3
+				navy_ratio = 0.25
+				air_ratio = 0.2
+				keep_unit_leaders_trigger = {
+					has_trait = trait_POZ_reformist
+				}
+			}
+			declare_war_on = {
+				target = POZ
+				type = civil_war
+			}
+		}
+	}
+}
+
+country_event = { #MobileSuitTest_ZZ
+	id = zeon.6
+	title = zeon.6.t
+	desc = zeon.6.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = no
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {
+		original_tag = POZ
+		always = no
+	}
+
+	option = {
+		name = zeon.6.a
+		set_technology = {
+			zeon_ms_tech_unlock = 1
+		}
+	}
+
+	option = {
+		name = zeon.6.b
+		set_technology = {
+			zeon_ms_tech_unlock = 1
+		}
+	}
+}
+
+country_event = {
+	id = zeon.7
+	title = zeon.6.t
+	desc = zeon.6.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = no 
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {
+		original_tag = POZ
+		always = no
+	}
+}
+
+
+##############################################
+#######MOBILE_SUIT_DEVELOPMENT_EVENTS#########
+##############################################
+country_event = { #Contractors Pick
+	id = zeon.8
+	title = zeon.8.t
+	desc = zeon.8.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {
+		original_tag = POZ
+		POZ = {
+			has_completed_focus = POZ_industry_0
+		}
+	}
+
+	immediate = {
+		set_country_flag = POZ_ms_development_begin
+	}
+
+	option = {
+		name = zeon.8.a
+		add_political_power = -100
+		ROOT = { country_event = { id = zeon.9 days = 30 } }
+	}
+
+	option = {
+		name = zeon.8.b
+		add_political_power = -50
+		ROOT = { country_event = { id = zeon.10 days = 30 } }
+	}
+
+	option = {
+		name = zeon.8.c
+		add_political_power = -50
+		ROOT = { country_event = { id = zeon.11 days = 30 } }
+	}
+}
+
+country_event = { #zeon.8.a / BOTH
+	id = zeon.9
+	title = zeon.9.t
+	desc = zeon.9.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = zeon.9.a
+		ROOT = { country_event = { id = zeon.6 hours = 5 } }
+	}
+}
+
+country_event = { #zeon.8.b / ZEONIC
+	id = zeon.10
+	title = zeon.10.t
+	desc = zeon.10.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = zeon.10.a
+		set_technology = {
+			zeon_ms_tech_unlock = 1
+			zaku_I_ET = 1
+		}
+	}
+}
+
+country_event = { #zeon.8.c / ZIMMAD
+	id = zeon.11
+	title = zeon.11.t
+	desc = zeon.11.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	option = {
+		name = zeon.11.a
+		set_technology = {
+			zeon_ms_tech_unlock = 1
+		}
+	}
+}
+##############################################
+country_event = { #zabi trials
+	id = zeon.12
+	title = zeon.12.t
+	desc = zeon.12.d
+	picture = GFX_report_event_ms_research
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {
+		date < 079.1.1
+		original_tag = POZ
+		has_completed_focus = POZ_the_zabi_family_trials
+
+		NOT = {
+			has_global_flag = ONE_YEAR_WAR_0079
+		}
+
+		hidden_trigger = {
+			always = no
+		}
+	}
+
+	option = {
+		name = zeon.12.a
+		set_country_flag = POZ_zabis_on_trial
+	}
+}

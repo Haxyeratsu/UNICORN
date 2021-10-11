@@ -1,0 +1,24 @@
+add_namespace = misc
+
+country_event = { #DozleArmytoNavy
+	id = misc.0
+	title = misc.0.t
+	desc = misc.0.d
+	hidden = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+
+	trigger = {
+		POZ = {
+			has_country_flag = dozle_admiral
+		}
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = ok
+	}	
+}

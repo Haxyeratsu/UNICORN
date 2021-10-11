@@ -1,0 +1,91 @@
+add_namespace = pilot_alignment
+
+country_event = { #CharJoinsZeon
+	id = pilot_alignment.0
+	title = pilot_alignment.0.t
+	desc = pilot_alignment.0.d
+	hidden = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		set_global_flag = char_with_zeon
+		activate_mission = POZ_pilots_char_joins
+	}
+
+	trigger = {
+		POZ = {
+			has_war = yes
+			has_stability > 0.10
+			has_stability < 0.9
+			has_added_tension_amount > 3
+
+			NOT = {
+				country_exists = OXZ	
+				AND = {
+					has_global_flag = char_with_zeon
+					has_global_flag = char_with_neo_zeon
+				}	
+			}
+		}
+	}
+}
+
+country_event = { #CharLeavesZeon
+	id = pilot_alignment.1
+	title = pilot_alignment.1.t
+	desc = pilot_alignment.1.d
+	hidden = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		clr_global_flag = char_with_zeon
+		remove_unit_leader = 7928
+	}
+
+	trigger = {
+		POZ = {
+			has_global_flag = char_with_zeon
+			has_added_tension_amount > 60
+			has_stability < 0.10
+			has_stability > 0.9		
+			OR = {
+				threat < 0.1
+				threat > 0.8
+				has_added_tension_amount < 5
+				country_exists = OXZ
+			}
+		}
+
+	}
+}
+
+country_event = { #ElranBetraysEarth
+	id = pilot_alignment.2
+	title = pilot_alignment.2.t
+	desc = pilot_alignment.2.d
+	hidden = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		any_unit_leader = {
+			limit = {
+				has_trait = zeon_sympathizer
+			}
+			remove_unit_leader = THIS
+		}
+	}
+
+	trigger = {
+		ETF = {
+			has_war_with = POZ
+			has_added_tension_amount > 10
+			has_added_tension_amount < 50
+		}
+	}
+}

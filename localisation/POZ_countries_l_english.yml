@@ -1,0 +1,47 @@
+﻿l_english:
+ POZ_fascism:0 "Republic of Zeon"
+ POZ_fascism_DEF:0 "the Republic of Zeon"
+ POZ_democratic:0 "Republic of Zeon"
+ POZ_democratic_DEF:0 "the Republic of Zeon"
+ POZ_neutrality:1 "Autonomous Republic of Munzo"
+ POZ_neutrality_DEF:1 "the Autonomous Republic of Munzo"
+ POZ_communism:0 " placeholder_COM "
+ POZ_communism_DEF:0 " the placeholder_COM "
+ POZ_fascism_ADJ:0 "Spacenoid"
+ POZ_democratic_ADJ:0 "Spacenoid"
+ POZ_neutrality_ADJ:0 "Spacenoid"
+ POZ_communism_ADJ:0 "Spacenoid"
+
+ #cosmetictags
+ POZ_independent_fascism:0 "Principality of Zeon"
+ POZ_independent_fascism_DEF:0 "the Principality of Zeon"
+ POZ_independent_fascism_ADJ:0 "Zeonic"
+
+ #ideas
+ POZ_unorganized_government_none:0 "NULL"
+ POZ_unorganized_government_1:0 "Unorganized Government"
+ POZ_unorganized_government_2:0 "Unorganized Government"
+ POZ_backward_industry:0 "Backward Industrial Complexes"
+ POZ_inexperienced_army:0 "Inexperienced Army"
+ POZ_inexperienced_navy:0 "Inexperienced Navy"
+ POZ_light_guerrilla_presence:0 "Light Guerrilla Presence"
+ POZ_strong_guerrilla_presence:0 "Strong Guerrilla Presence"
+
+ #leader titles
+ sodo:0 "Sodo"
+
+ #Misc Countries
+ ZIC:0 "Zeonic"
+ ZIC_DEF:0 "the Zeonic Company"
+ ZIC_ADJ:0 "Zeonic Corporation"
+
+ #ranks
+  #Junior Officers
+    #少尉
+      POZ_rank_shoi:0 "Junior Officer: Second Lieutenant"
+  #Senior Officers 少佐
+    #少佐
+      POZ_rank_shosa:0 "Senior Officer: Major"
+ #units
+ cadets:0 "Cadets"
+ cadets_desc:0 "Infantry units that haven't graduated from their military academy yet. Less expensive and require less manpower, quick and cheap to train. They generate army experience much faster than regular infantry."

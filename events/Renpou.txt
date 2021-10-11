@@ -1,0 +1,204 @@
+add_namespace = renpou
+
+#StartDate 0076
+country_event = {
+	id = renpou.0
+	title = renpou.0.t
+	desc = renpou.0.d
+	picture = GFX_report_event_election_vote
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		tag = ETF
+		has_start_date > "0076.1.1"
+	}
+
+	immediate = {
+		
+	}
+}
+
+country_event = {
+	id = renpou.1
+	title = renpou.1.t
+	desc = renpou.1.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = no
+	hidden = no
+	fire_only_once = yes
+
+	immediate = {
+		set_country_flag = ETF_side3_is_puppet
+		hidden_effect = {
+			news_event = {
+    			id = UC_news.0
+    			days = 526 #526 days is June
+			}
+			POZ = {
+				country_event = {
+					id = zeon.2
+					days = 383 #was 383 Date: 0077 Jan 20
+				}
+			}
+		}
+	}
+	option = {
+		name = "renpou.1.a"
+	}
+}
+
+country_event = { #ONEYEARWAR 24-October-78
+	id = renpou.2
+	title = renpou.2.t
+	desc = renpou.2.d
+	picture = GFX_report_event_election_vote	
+	is_triggered_only = yes 
+	fire_only_once = yes
+	hidden = no
+
+	trigger = {	
+		original_tag = ETF
+		POZ = {
+			has_completed_focus = POZ_the_dawn_of_the_spacenoids
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				POZ = {
+					is_puppet = yes
+				}
+			}
+			ETF = {
+				end_puppet = POZ
+			}
+		}
+		POZ = {
+			declare_war_on = {
+				target = ETF
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					GRA = {
+						exists = yes
+						gives_military_access_to = POZ
+					}
+				}
+				POZ = {
+					puppet = GRA
+				}
+			}
+			set_cosmetic_tag = POZ_independent_fascism
+			remove_ideas = federation_supervision
+			set_major = yes			
+		}	
+		set_global_flag = ONE_YEAR_WAR_0079	
+	}
+
+	option = {
+		name = renpou.2.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = renpou.3
+	title = renpou.3.t
+	desc = renpou.3.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = no
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+		has_start_date > 76.1.1.12
+		original_tag = ETF
+		has_completed_focus = ETF_earths_climate_commission
+		OR = {
+			has_ideas = ETF_pollution_lvl_2
+		}
+	}
+
+	option = {
+		name = "renpou.3.a"
+		hidden_effect = {
+			set_country_flag = ETF_commission_a
+			news_event = {
+    			id = UC_news.99
+    			days = 3
+			}
+		}
+	}
+
+	option = {
+		name = "renpou.3.b"
+		hidden_effect = {
+			set_country_flag = ETF_commission_b
+			news_event = {
+    			id = UC_news.99
+    			days = 3
+			}
+		}
+	}
+}
+
+country_event = { #growing support for zeon
+	id = renpou.4
+	title = renpou.4.t
+	desc = renpou.4.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = no
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+		POZ = {
+			has_country_flag = POZ_harass_federation_2_flag
+		}
+	}
+
+	option = {
+		name = "renpou.4.a"
+		add_stability = -0.1
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.15
+		}
+		
+		hidden_effect = {
+			set_country_flag = ETF_halts_zeon_protests
+			news_event = {
+    			id = UC_news.4
+    			hours = 12
+			}
+		}
+	}
+
+	option = {
+		name = "renpou.4.b"
+		add_stability = 0.1
+		ETF = {
+			add_timed_idea = {
+				idea = ETF_zeon_supporters
+				days = 160
+			}
+		}
+
+		hidden_effect = {
+			set_country_flag = ETF_allows_zeon_protests
+			news_event = {
+    			id = UC_news.5
+    			hours = 12
+			}
+		}
+	}
+}

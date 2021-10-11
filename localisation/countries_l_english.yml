@@ -1,0 +1,26 @@
+﻿l_english:
+ MON:0 "Moon"
+ MON_DEF:0 "Moon"
+ MON_ADJ:0 "Colonist"
+ MON_fascism:0 "Granada"
+ MON_fascism_DEF:0 "Granada"
+ MON_fascism_ADJ:0 "Spacenoid"
+ 
+ #
+ OXZ:0 "Orthodox Zeon"
+ OXZ_DEF:0 "Orthodox Zeon"
+ OXZ_ADJ:0 "Zeonic"
+
+ #postdisaster
+ ACU:0 "African Union"
+ ACU_DEF:0 "The African Union"
+ ACU_ADJ:0 "Earthnoid"
+ SAU:0 "Strategic Alliance Union"
+ SAU_DEF:0 "The Strategic Alliance Union Union"
+ SAU_ADJ:0 "Earthnoid"
+ ABR:0 "ARBRAU"
+ ABR_DEF:0 "ARBRAU"
+ ABR_ADJ:0 "Earthnoid"
+ OCF:0 "Oceanian Federation"
+ OCF_DEF:0 "The Oceanian Federation"
+ OCF_ADJ:0 "Earthnoid"

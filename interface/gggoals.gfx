@@ -1,0 +1,42 @@
+spriteTypes = {	
+
+	#### ETF
+	SpriteType = {
+		name = "GFX_focus_ETF_annexation_program_0"
+		texturefile = "gfx/interface/goals/focus_ETF_annexation_program_0.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_annexation_program_1"
+		texturefile = "gfx/interface/goals/focus_ETF_annexation_program_1.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_earths_climate_commission"
+		texturefile = "gfx/interface/goals/focus_ETF_earths_climate_commission.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_liberation_program_0"
+		texturefile = "gfx/interface/goals/focus_ETF_liberation_program_0.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_liberation_program_1"
+		texturefile = "gfx/interface/goals/focus_ETF_liberation_program_1.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_earth_exodus"
+		texturefile = "gfx/interface/goals/focus_ETF_earth_exodus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_ETF_space_exodus"
+		texturefile = "gfx/interface/goals/focus_ETF_space_exodus.dds"			
+	}
+
+	#### POZ
+	SpriteType = {
+		name = "GFX_focus_POZ_the_zabi_family_trials"
+		texturefile = "gfx/interface/goals/focus_POZ_the_zabi_family_trials.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_POZ_the_zabi_family_cooperation"
+		texturefile = "gfx/interface/goals/focus_POZ_the_zabi_family_cooperation.dds"			
+	}
+}

@@ -1,0 +1,61 @@
+﻿l_english:
+ ETF_fascism:0 "Earth Fascism"
+ ETF_fascism_DEF:0 "the Earth Fascism"
+ ETF_democratic:0 "Federated Union of Earth"
+ ETF_democratic_DEF:0 "the Federated Union of Earth"
+ ETF_neutrality:1 "Earth Empire"
+ ETF_neutrality_DEF:1 "the Earth Empire"
+ ETF_communism:0 "Socialist Republic of Earthy"
+ ETF_communism_DEF:0 "the Socialist Republic of Earth"
+ ETF_fascism_ADJ:0 "Earthnoid"
+ ETF_democratic_ADJ:0 "Earthnoid"
+ ETF_neutrality_ADJ:0 "Earthnoid"
+ ETF_communism_ADJ:0 "Earthnoid"
+ ETF:0 "Earth"
+ ETF_DEF:0 "the Earth"
+ ETF_ADJ:0 "Earthnoid"
+
+ #Other
+ EUR_fascism:0 "Europe"
+ EUR_fascism_DEF:0 "Europe"
+ EUR_democratic:0 "United States of Europe"
+ EUR_democratic_DEF:0 "the United States of Europe"
+ EUR_neutrality:1 "Europe"
+ EUR_neutrality_DEF:1 "Europe"
+ EUR_communism:0 "Socialist Republics of Europe"
+ EUR_communism_DEF:0 "the Socialist Republic of Europe"
+ EUR_fascism_ADJ:0 "European"
+ EUR_democratic_ADJ:0 "European"
+ EUR_neutrality_ADJ:0 "European"
+ EUR_communism_ADJ:0 "European"
+ EUR:0 "Europe"
+ EUR_DEF:0 "Europe"
+ EUR_ADJ:0 "European"
+
+ #Granada
+ GRA:0 "Granada"
+ GRA_DEF:0 "Granada"
+ GRA_ADJ:0 "Spacenoid"
+
+ #puppets
+
+ #National_Ideas
+ a_thousand_autonomies:0 "a Thousand Autonomies"
+ space_colony:0 "Space Colony"
+ federation_supervision:0 "Federation Supervision"
+ ETF_pollution_lvl_0:0 "Uncontaminated"
+ ETF_pollution_lvl_1:0 "Pollution Level: 1"
+ ETF_pollution_lvl_2:0 "Pollution Level: 2"
+
+ #Events(Alpha)
+ side3_independence.1.t:0 "Side 3 Demands"
+ side3_independence.1.d:0 "Side 3 a space colony under our control with their newly appointed leader of the Side Zeon Zum Deikun, have requested higher autonomy from the Earth Federation. The people in the colonies rejoice calling themselves the Republic of Munzo. They believe that all space colonies should be independent from the Earth Federation while also claiming that a new stage of human evolution is its in the early stages and, is advancing affecting the lives of those that are living in space. A proper response to this clear form of separatism from our dominion should be able to halt and crush their dreams, if we let them do whatever they want the consequences of this dangerous ideology will be detrimental to us."
+ side3_events.1.t:0 "The Death of Zeon"
+ side3_events.1.d:0 "Before giving his speech Zeon Zum Deikun collasped onto the floor and died tragically of a heart attack, the colony mourn him as their last hope to redeem themselves for something greater fades away. Many on Side 3 speculate that Zeon was assinated by the Federation, mass protests and unrest are soon to follow if we don't intervene in the stabilization of the colony. Zeon might have died but his teachings have not vanished yet and live on in the hearts of many colonists."
+ side3_independence.001.t:0 "Side 3 Declares its Independence"
+ side3_independence.001.d:0 "Side 3 a space colony under our control with their newly appointed leader of the Side Zeon Zum Deikun, have declared their independence from the Earth Federation. The people in the colonies rejoice calling themselves the Republic of Zeon. They believe that all space colonies should be independent from the Earth Federation while also claiming that a new stage of human evolution is its in the early stages. A proper response to this clear form of rebellion from our dominion should be able to halt and crush their dreams, with no problems whatsoever." 
+
+#Events
+ side3_independence.3.t:0 "The Situation So Far..."
+ side3_independence.3.d:0 "In the year 0058UC Side 3 a space colony under direct control of the Earth Federation have requested higher autonomy with their appointed leader of the Side Zeon Zum Deikun.  Eventually winning as the people in the colonies rejoiced we named ourselves the "Republic of Munzo". We believe that all space colonies should be independent from the Earth Federation and that Earth is sacred and humans should not have the right to call it their home. Our rightful ideals were attacked by the Earth Federation the day the "Bardot Policy" was enforced upon us ultimately imposing an embargo on the Side. In order to protect ourselves and our ideals a colonial guard was created to prevent a possible invasion by the Earth Federation as we keep pushing for our independence. The future is bright and the light of the sun shines on us all. The time has come for us to free Earth from its filth and cure it from all of our past sins. The Earth Federation will be slow to understand  our ideas therefore we must prepare ourselves and endure once again their tyranny."
+ side3_independence.3.a:0 "Times are changing..."

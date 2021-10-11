@@ -1,0 +1,146 @@
+﻿add_namespace = UC_news
+
+#Universal Century News (76)
+news_event = { #77 Destroyed Block
+	id = UC_news.0
+	title = UC_news.0.t
+	desc = UC_news.0.d
+	picture = GFX_news_event_nuke
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = no
+
+	trigger = {
+
+	}
+
+	immediate = {
+		ETF = {
+			set_country_flag = ETF_has_destoyed_block
+		}
+	}
+
+	option = {
+		name = UC_news.0.a
+	}
+}
+
+news_event = { #RebbelionSide3News
+	id = UC_news.1
+	title = UC_news.1.t
+	desc = UC_news.1.d
+	picture = GFX_news_event_nuke
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+		ZLF = {
+			exists = yes
+		}
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = UC_news.1.a
+	}
+}
+
+news_event = { #Side6LoyalistRequestedHelp
+	id = UC_news.2
+	title = "Side 6 Loyalists Requested Aid"
+	desc = UC_news.2.d
+	picture = GFX_news_event_009
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = no
+
+	trigger = {
+		ETF = {
+			has_country_flag = SE6_proearth_requested_aid
+		}
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = UC_news.2.a
+	}
+}
+
+news_event = { #Side6CilvWar
+	id = UC_news.3
+	title = "Side 6 Civil War"
+	desc = UC_news.3.d
+	picture = GFX_news_event_009
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+
+		SE6 = {
+			has_civil_war = yes
+		}
+
+		date < 79.1.1
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = UC_news.3.a
+	}
+}
+
+news_event = { #Federation halts protests and demonstrations
+	id = UC_news.4
+	title = UC_news.4.t
+	desc = UC_news.4.d
+	picture = GFX_news_event_nuke
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+		ETF = {
+			has_country_flag = ETF_halts_zeon_protests
+		}
+	}
+
+	option = {
+		name = UC_news.4.a
+	}
+}
+
+news_event = { #Federation allows protests and demonstrations
+	id = UC_news.5
+	title = UC_news.5.t
+	desc = UC_news.5.d
+	picture = GFX_news_event_nuke
+	major = yes
+	is_triggered_only = yes
+	hidden = no
+	fire_only_once = yes
+
+	trigger = {
+		ETF = {
+			has_country_flag = ETF_allows_zeon_protests
+		}
+	}
+
+	option = {
+		name = UC_news.5.a
+	}
+}

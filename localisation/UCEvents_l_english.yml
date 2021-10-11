@@ -1,0 +1,36 @@
+﻿l_english:
+ #introduction
+renpou.1.t:0 "The situation so far..."
+renpou.1.d:0 "In the year 0058UC Side 3 a space colony under our control with their appointed leader of the Side Zeon Zum Deikun, have requested higher autonomy from the Earth Federation.  Eventually winning us over as the people in the colonies rejoiced they named themselves the "Republic of Munzo". They believe that all space colonies should be independent from the Earth Federation while also claiming with the philosohpy of Zeon that a new stage of human evolution is in its early stages and, is advancing affecting the lives of those that are living in space. A proper response to this clear form of initial separatism was met on our part with the "Bardot Policy" ultimately imposing an embargo on Side 3. They have responded with creating a colonial guard to prevent us from invading them in case they would have declared their independece. Tensions are rising and our influence over Side 3 is diminishing, colonists around the system believe in Zeon's theory. If we don't act quickly one day we will lose all of our colonies to this non-sense, as the Earth Federation we will strive together to remain united for the good of humanity as a whole. if we let them do whatever they want the consequences of this dangerous ideology will be detrimental to us."
+renpou.1.a:0 "Times are changing..."
+zeon.1.t:0 "The situation so far..."
+zeon.1.d:0 "In the year 0058UC Side 3 a space colony under direct control of the Earth Federation have requested higher autonomy with their appointed leader of the Side Zeon Zum Deikun.  Eventually winning as the people in the colonies rejoiced we named ourselves the "Republic of Munzo". We believe that all space colonies should be independent from the Earth Federation and that Earth is sacred and humans should not have the right to call it their home. Our rightful ideals were attacked by the Earth Federation the day the "Bardot Policy" was enforced upon us ultimately imposing an embargo on the Side. In order to protect ourselves and our ideals a colonial guard was created to prevent a possible invasion by the Earth Federation as we keep pushing for our independence. The future is bright and the light of the sun shines on us all. The time has come for us to free Earth from its filth and cure it from all of our past sins. The Earth Federation will be slow to understand  our ideas therefore we must prepare ourselves and endure once again their tyranny."
+zeon.1.a:0 "All hail the great Zeon!"
+
+ #zeon
+zeon.6.t:0 "Test Results"
+zeon.6.d:0 "The latest test results from the companies have finally arrived. The 'EMS-04 Zudah' has performed very well, it's able to generate more power through its engine giving it an edge in powering its rocket thrusters. The 'MS-04 Prototype Zaku' on the other hand has had slightly lower results performance wise, it's a bit sturdier and clunkier, not as agile as its counterpart presented by Zimmad. Zeonic has also claimed that the Zaku is much more reliable as the Zudah is more prone to fatal defects in the propulsion system."
+zeon.999.d:0 "Thanks to the efforts of our researches the development of our new technologies is thriving. Intially our Mobile Suits were used to develop the industry of our colonies. However given the circumstances we might find a better use for them and continue the development of our armaments."
+zeon.8.t:0 "Next-Generation Mobile Weapon"
+zeon.8.a:0 "Invest in all companies"
+zeon.8.b:0 "Focus on Zeonic"
+zeon.8.c:0 "Focus on Zimmad"
+zeon.9.t:0 "First Prototypes"
+zeon.9.d:0 "Both companies have finally completed their developments of the very first experimental Mobile Weapon. They are on stand-by awaiting to be tested."
+zeon.9.a:0 "Let's test these new models"
+zeon.6.a:0 "The Zudah is promising"
+zeon.6.b:0 "The Zaku seems reliable"
+zeon.10.a:0 "The Zaku will be Zeon's greatest machine"
+zeon.11.a:0 "The Zudah will be Zeon's greatest machine"
+zeon.12.t:0 "The Zabi Trials Begin"
+zeon.12.d:0 "After the death of Zeon Zum Daikun numerous protestors all around Munzo appealed for a proper trial and investigation of Zeon's death. The Zabi's being the first and foremost suspects of his death presumbely for assasination. Degwin Zabi once a friend and supporter of Zeon's ideals could have had also played his part in all this."
+
+ #oneyearwar
+renpou.6.t:0 "The Principality of Zeon Declares Independence"
+renpou.6.d:0 "The Principality of Zeon has declared its independence from us! At the same they have also immediately declared war upon us. Who would have thought that there would be a war in our times, our struggles to keep the peace resulted pointless."
+renpou.6.a:0 "A mere space colony could never compete against the might of the Federation!"
+
+ #news
+UC_news.0.t:0 "Tragedy Strikes"
+UC_news.0.d:0 "Earthnoid spaceship destroys agricultural block in Side 3."
+UC_news.0.a:0 "How unfortunate..."

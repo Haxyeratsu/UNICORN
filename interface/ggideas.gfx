@@ -1,0 +1,38 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_POZ_sibling_rivalry"
+		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy_habsburg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_inexperienced_army"
+		texturefile = "gfx/interface/ideas/idea_tur_disorganised_armed_forces.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_inexperienced_navy"
+		texturefile = "gfx/interface/ideas/idea_generic_naval_manufacturer_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_unorganized_government_2"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_unorganized_government_1"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_unorganized_government_1"
+		texturefile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_backward_industry"
+		texturefile = "gfx/interface/ideas/idea_generic_agrarian_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_light_guerrilla_presence"
+		texturefile = "gfx/interface/ideas/idea_tur_coordinated_balkan_armed_forces.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_POZ_strong_guerrilla_presence"
+		texturefile = "gfx/interface/ideas/idea_tur_coordinated_balkan_armed_forces.dds"
+	}
+}

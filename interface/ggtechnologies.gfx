@@ -1,0 +1,454 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_zeon_armor_tech_unlock_medium"
+		texturefile = "gfx/interface/technologies/zeon_symbol_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_zeon_ms_tech_unlock_medium"
+		texturefile = "gfx/interface/technologies/zeon_symbol_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_renpou_ms_tech_unlock_medium"
+		texturefile = "gfx/interface/technologies/renpou_symbol_tech.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETF_ms_tree_bg"
+		texturefile = "gfx/interface/ETF_ms_tree_bg.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POZ_ms_tree_bg"
+		texturefile = "gfx/interface/POZ_ms_tree_bg.dds"
+	}
+
+	######################
+	###INFANTRY WEAPONS###
+	######################
+	
+	SpriteType = {
+		name = "GFX_ETF_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/etf_basic_equipment.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POZ_infantry3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_POZ_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_POZ_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/poz_basic_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_POZ_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_1.dds"
+	}
+
+	######################
+	####   VEHICLES   ####
+	######################
+
+	SpriteType = {
+		name = "GFX_MBT_medium"
+		texturefile = "gfx/interface/technologies/MBT.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_magella_attack_medium"
+		texturefile = "gfx/interface/technologies/magella_attack.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETF_transport_plane_equipment_medium"
+		texturefile = "gfx/interface/technologies/ETF_transport_plane_equipment.dds"
+	}
+
+	######################
+	####  SPACESHIPS  ####
+	######################
+
+	###	Zeon
+	SpriteType = {
+		name = "GFX_ZEO_musai_light_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ZEO_early_light_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_musaikai_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ZEO_musaikai_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_musai_final_production_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ZEO_musai_final_production_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_chivvay_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ZEO_chivvay_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_tivvay_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ZEO_tivvay_heavy_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_gwazine_battleship_medium"
+		texturefile = "gfx/interface/technologies/ZEO_gwazine_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_gwanban_battleship_medium"
+		texturefile = "gfx/interface/technologies/ZEO_gwanban_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_gwadan_battleship_medium"
+		texturefile = "gfx/interface/technologies/ZEO_gwadan_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_sadalahn_battleship_medium"
+		texturefile = "gfx/interface/technologies/ZEO_sadalahn_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ZEO_rewloola_battleship_medium"
+		texturefile = "gfx/interface/technologies/ZEO_rewloola_battleship.dds"
+	}
+
+	###	Federation
+	SpriteType = {
+		name = "GFX_ETF_salamis_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ETF_salamis_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_salamiskai_0083_refit_medium"
+		texturefile = "gfx/interface/technologies/ETF_salamiskai_0083_refit.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_salamiskai_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ETF_salamiskai_cruiser.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_magellan_battleship_medium"
+		texturefile = "gfx/interface/technologies/ETF_magellan_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_magellankai_battleship_medium"
+		texturefile = "gfx/interface/technologies/ETF_magellankai_battleship.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_alexandria_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ETF_alexandria_cruiser.dds"
+	}
+
+	#modules
+	SpriteType = {
+		name = "GFX_basic_heavy_battery_medium"
+		texturefile = "gfx/interface/technologies/basic_heavy_battery.dds"
+	}
+
+
+
+	######################
+	#### MOBILE SUITS ####
+	######################
+
+	###	Zeon
+	
+	SpriteType = {
+		name = "GFX_ms_04_prototype_zaku_medium"
+		texturefile = "gfx/interface/technologies/ms_04_prototype_zaku.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_zaku_I_ET_medium"
+		texturefile = "gfx/interface/technologies/zaku_I_ET.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS-06_Zaku_II_medium"
+		texturefile = "gfx/interface/technologies/MS-06_Zaku_II.DDS"
+	}
+
+	SpriteType = { #########################
+		name = "GFX_MS_06D_zaku_medium"
+		texturefile = "gfx/interface/technologies/MS_06D_zaku.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS_06FZ_Zaku_II_medium"
+		texturefile = "gfx/interface/technologies/MS_06FZ_Zaku_II.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS_05B_Zaku_I_medium"
+		texturefile = "gfx/interface/technologies/MS-05B_Zaku_I.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MS_06K_ZakuCannon_medium"
+		texturefile = "gfx/interface/technologies/MS_06K_ZakuCannon_equipment.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS_06V_ZakuTank_medium"
+		texturefile = "gfx/interface/technologies/MS_06V_ZakuTank.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_YMS_07_proto_gouf_medium"
+		texturefile = "gfx/interface/technologies/YMS_07_proto_gouf.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS_07B_gouf_medium"
+		texturefile = "gfx/interface/technologies/MS_07B_gouf.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_YMS_09_prototype_dom_medium"
+		texturefile = "gfx/interface/technologies/YMS_09_prototype_dom.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS09B_dom_medium"
+		texturefile = "gfx/interface/technologies/MS09B_dom.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_MS_06R_2_Zaku_II_medium"
+		texturefile = "gfx/interface/technologies/MS_06R_2_Zaku_II.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MS14S_gelgoog_medium"
+		texturefile = "gfx/interface/technologies/MS14S_gelgoog.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MS15_gyan_medium"
+		texturefile = "gfx/interface/technologies/MS15_gyan.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_YMS_16M_xamel_medium"
+		texturefile = "gfx/interface/technologies/YMS_16M_xamel.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MS_18E_kampfer_medium"
+		texturefile = "gfx/interface/technologies/MS_18E_kampfer.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MS_06Z_psycommu_system_zaku_medium"
+		texturefile = "gfx/interface/technologies/MS_06Z_psycommu_system_zaku.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MSN_01_psycommu_test_medium"
+		texturefile = "gfx/interface/technologies/MSN_01_psycommu_test.DDS"
+	}
+
+	SpriteType = { 
+		name = "GFX_MSN_02_zeong_medium"
+		texturefile = "gfx/interface/technologies/MSN_02_zeong.DDS"
+	}
+
+	####Upgrades
+
+	SpriteType = {
+		name = "GFX_ms_program_0_medium"
+		texturefile = "gfx/interface/technologies/ms_zeon_program_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ms_earthprgoram_0_medium"
+		texturefile = "gfx/interface/technologies/ms_zeon_earthprogram_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_implementation_cannon_medium"
+		texturefile = "gfx/interface/technologies/implementation_cannon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_psycho_communicator_system_x_medium"
+		texturefile = "gfx/interface/technologies/psycho_communicator_system_x.dds"
+	}
+
+	### Federation
+
+	SpriteType = { 
+		name = "GFX_rx-75-4_guntank_medium"
+		texturefile = "gfx/interface/technologies/rx-75-4_guntank.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rx_75_guntank_MPT_medium"
+		texturefile = "gfx/interface/technologies/rx_75_guntank_MPT.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rmv-1_guntank_II_medium"
+		texturefile = "gfx/interface/technologies/rmv-1_guntank_II.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rx-78-1_gundam_medium"
+		texturefile = "gfx/interface/technologies/rx-78-1_gundam.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rx_78_2_gundam_medium"
+		texturefile = "gfx/interface/technologies/rx_78_2_gundam.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rx_79_g_medium"
+		texturefile = "gfx/interface/technologies/rx_79_g.DDS"
+	}
+
+	SpriteType = {
+		name = "GFX_rx-77-2_guncannon_medium"
+		texturefile = "gfx/interface/technologies/rx-77-2_guncannon.DDS"
+	}
+
+	####Upgrades
+
+	SpriteType = {
+		name = "GFX_improved_guntank_medium"
+		texturefile = "gfx/interface/technologies/guntank_upgrade.dds"
+	}
+
+
+	######################
+	#### 	WEAPONS   ####
+	######################
+	
+	SpriteType = {
+		name = "GFX_ms_04_100mmMG_medium"
+		texturefile = "gfx/interface/technologies/ms_04_100mmMG.dds"
+	}
+
+	######################
+	### LAND DOCTRINE ####
+	######################
+	
+	SpriteType = {
+		name = "GFX_modern_warfare_medium"
+		texturefile = "gfx/interface/technologies/mechanised_offensive.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_mobile_suit_warfare_medium"
+		texturefile = "gfx/interface/technologies/blitzkrieg.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_armored_warfare_medium"
+		texturefile = "gfx/interface/technologies/armored_spearhead.dds"
+	}
+
+	######################
+	#### 	AIR EQP   ####
+	######################
+
+	SpriteType = {
+		name = "GFX_POZ_fighter_0_medium"
+		texturefile = "gfx/interface/technologies/POZ_fighter_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETF_fighter_0_medium"
+		texturefile = "gfx/interface/technologies/ETF_fighter_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POZ_atmospheric_fighter0_medium"
+		texturefile = "gfx/interface/technologies/POZ_atmospheric_fighter0.dds"
+	}
+	SpriteType = {
+		name = "GFX_POZ_atmospheric_fighter1_medium"
+		texturefile = "gfx/interface/technologies/POZ_atmospheric_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_POZ_atmospheric_fighter2_medium"
+		texturefile = "gfx/interface/technologies/POZ_atmospheric_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ETF_atmospheric_fighter0_medium"
+		texturefile = "gfx/interface/technologies/ETF_atmospheric_fighter0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_atmospheric_fighter1_medium"
+		texturefile = "gfx/interface/technologies/ETF_atmospheric_fighter1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_atmospheric_fighter2_medium"
+		texturefile = "gfx/interface/technologies/ETF_atmospheric_fighter2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_POZ_tac_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/POZ_tac_bomber_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ETF_tac_bomber_1_medium"
+		texturefile = "gfx/interface/technologies/ETF_tac_bomber_1.dds"
+	}
+
+	######################
+
+	#GFX_technology_currently_researching_item_bg
+
+	#### naval tech ######
+	spriteType = {
+		name = "GFX_technology_spaceshipsfolder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_spaceships_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_spaceshipsr_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_spaceships_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}	
+	
+	spriteType = { 
+		name = "GFX_technology_spaceships_currently_researching_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_spaceships_available_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_spaceshipsfolder_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_spaceships_researched_item_bg"
+		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
+	}
+}

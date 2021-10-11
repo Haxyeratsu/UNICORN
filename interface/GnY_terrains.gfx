@@ -1,0 +1,21 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_terrain_moon"
+		textureFile = "gfx/interface/special_terrains/terrain_moon.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_asteroid"
+		textureFile = "gfx/interface/special_terrains/terrain_asteroid.dds"
+	}
+
+	#special
+	spriteType = {
+		name = "GFX_terrain_granada"
+		textureFile = "gfx/interface/special_terrains/terrain_granada.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_vonbraun"
+		textureFile = "gfx/interface/special_terrains/terrain_vonbraun.dds"
+	}
+}

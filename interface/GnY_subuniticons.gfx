@@ -1,0 +1,12 @@
+spriteTypes = {	
+	##################################
+	### Large images for DIVISIONS ###
+	spriteType = { name = "GFX_unit_ZEO_mobile_suit_ms05b_zakuI_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_ZEO_mobile_suit_ms05b_zakuI_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ZEO_mobile_suit_icon_medium" 				textureFile = "gfx/interface/counters/divisions_large/unit_ZEO_mobile_suit_ms05b_zakuI_icon.dds" noOfFrames = 2 }
+	
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+	spriteType = { name = "GFX_unit_ZEO_mobile_suit_ms05b_zakuI_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_unit_ZEO_mobile_suit_ms05b_zakuI_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_ZEO_mobile_suit_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_unit_unit_ZEO_mobile_suit_ms05b_zakuI_icon.dds" noOfFrames = 2 }
+
+}
