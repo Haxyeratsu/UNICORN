@@ -1,0 +1,188 @@
+﻿capital = 203
+oob = "ETF_0076"
+set_major = yes
+
+EFT = {
+	become_exiled_in = { target = ETF legitimacy = 25 }
+}
+
+add_ideas = {
+	a_thousand_autonomies
+	ETF_pollution_lvl_2
+
+	#laws
+	civilian_economy
+	volunteer_only
+	limited_exports
+}
+
+set_convoys = 920
+
+set_research_slots = 3
+set_stability = 0.54
+set_war_support = 0.44
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "0075.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 20
+	neutrality = 20
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_at = 1
+	infantry_weapons1 = 1
+	MBT = 1
+	motorised_infantry = 1
+	armored_car1 = 1
+	mechanised_infantry = 1
+	mortar = 1
+
+	mtg_transport = 1
+	ETF_magellan_battleship = 1
+	ETF_salamis_cruiser = 1
+	atmospheric_fighter0 = 1
+	tac_bomber_1 = 1
+}
+
+create_equipment_variant = {
+	name = "Salamis Class"
+	type = salamis_hull_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = single_mega_particle_gun_1
+		fixed_ship_engine_slot = cruiser_fusion_reactor_1
+	}
+	obsolete = no
+}
+
+create_equipment_variant = {
+	name = "Magellan Class"
+	type = magellan_hull_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = twin_mega_particle_gun_1
+		fixed_ship_armor_slot = spaceship_armor_bb_1
+		fixed_ship_engine_slot = heavy_fusion_reactor_1
+	}
+	obsolete = no
+}
+
+#Diplomacy
+##licenses
+create_production_license = {
+    target = MON
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+create_production_license = {
+    target = SE1
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+create_production_license = {
+    target = SE2
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+create_production_license = {
+    target = SE4
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+create_production_license = {
+    target = SE6
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+create_production_license = {
+    target = SE7
+    equipment = {
+        type = MBT_equipment
+        version = 0
+    }
+    cost_factor = 1
+}
+
+##puppets
+set_autonomy = {
+	target = SE1
+	autonomous_state = gny_space_colony
+	freedom_level = 1.00
+	
+}
+set_autonomy = {
+	target = SE2
+	autonomous_state = gny_space_colony
+	freedom_level = 1.40
+}
+
+set_autonomy = {
+	target = SE4
+	autonomous_state = gny_space_colony
+	freedom_level = 5.00
+}
+
+set_autonomy = {
+	target = SE5
+	autonomous_state = gny_space_colony
+	freedom_level = 0.80
+}
+
+set_autonomy = {
+	target = SE6
+	autonomous_state = gny_space_colony
+	freedom_level = 0.80
+}
+
+set_autonomy = {
+	target = SE7
+	autonomous_state = gny_space_colony
+	freedom_level = 0.20
+}
+
+set_autonomy = {
+	target = MON
+	autonomous_state = gny_space_colony
+	freedom_level = 0.30
+}
+
+set_autonomy = {
+	target = POZ
+	autonomous_state = gny_space_colony
+	freedom_level = 8.00
+}
+
+set_autonomy = {
+	target = ARC
+	autonomous_state = autonomy_forgotten_colony
+	freedom_level = 0.60
+}
+
+recruit_character = ETF_johann_ibrahim_revil
+recruit_character = ETF_fascist_leader
+recruit_character = ETF_neutrality_leader
+recruit_character = ETF_communist_leader
