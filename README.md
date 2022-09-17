@@ -1,2 +1,2 @@
-# Hoi4Mod_KidouSenshiGundam_GihrenNoYabou
-possibly fuck off.
+# MOD Codename: Unicorn
+Unplayable, Unfinished but not abandoned.
