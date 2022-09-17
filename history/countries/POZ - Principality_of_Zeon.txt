@@ -1,0 +1,129 @@
+﻿capital = 1
+oob = "POZ_0076"
+
+#test
+SDA = {
+	become_exiled_in = { target = POZ legitimacy = 25 }
+}
+
+add_ideas = {
+	space_colony
+	federation_supervision
+	POZ_no_armed_forces
+	POZ_political_violence
+
+	#laws
+	civilian_economy
+	volunteer_only
+	export_focus
+}
+
+set_convoys = 620
+
+create_equipment_variant = {
+	name = "Musai Class"
+	type = zeo_musai_hull_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = twin_mega_particle_gun_1
+		fixed_ship_engine_slot = cruiser_fusion_reactor_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Gwazine Class"
+	type = gwazine_hull_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = twin_mega_particle_gun_1
+		fixed_ship_armor_slot = spaceship_armor_bb_1
+		fixed_ship_engine_slot = heavy_fusion_reactor_1
+	}
+}
+
+set_technology = {
+	infantry_weapons = 1
+	mtg_transport = 1
+	ZEO_musai_light_cruiser = 1
+	ZEO_gwazine_battleship = 1
+	magella_attack = 1
+
+	mechanised_infantry = 1
+	motorised_infantry = 1
+	mortar = 1
+}
+
+set_research_slots = 3
+set_stability = 0.50
+set_war_support = 0.20
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "0076.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 24
+	contolism = 17
+	fascism = 29
+	communism = 10
+	neutrality = 20
+}
+
+#PoliticalLeaders
+recruit_character = POZ_ral_family
+recruit_character = POZ_degwin_zabi
+recruit_character = POZ_munzo_prov_gov
+#ArmyLeaders #ID 07905 & 07906 reserved for Gihren Admiral and Dozle Admiral
+recruit_character = POZ_cima_garahau
+recruit_character = POZ_mquve
+recruit_character = POZ_denim
+recruit_character = POZ_jean
+recruit_character = POZ_slender
+recruit_character = POZ_rambaral
+recruit_character = POZ_clamp
+recruit_character = POZ_acous
+recruit_character = POZ_kozun_graham
+recruit_character = POZ_gaia
+recruit_character = POZ_ortega
+recruit_character = POZ_mash
+recruit_character = POZ_gadem
+recruit_character = POZ_darota
+recruit_character = POZ_tokwan
+recruit_character = POZ_dimitri
+recruit_character = POZ_akahana
+recruit_character = POZ_kukurus_doan
+recruit_character = POZ_conscon
+recruit_character = POZ_lackoc
+recruit_character = POZ_towaning
+recruit_character = POZ_barom
+recruit_character = POZ_dren
+recruit_character = POZ_simus
+recruit_character = POZ_von_helsing
+recruit_character = POZ_steiner_hardy
+recruit_character = POZ_mihal_kamenski
+recruit_character = POZ_andy_strauss
+recruit_character = POZ_gabriel_ramirez_garcia
+recruit_character = POZ_killing
+recruit_character = POZ_oliver_mai
+recruit_character = POZ_sonne_de_maiziere
+recruit_character = POZ_werner_holbein
+recruit_character = POZ_HERBERT_VON_KASPAIN
+recruit_character = POZ_jean_luc_duval
+recruit_character = POZ_johnny_ridden
+recruit_character = POZ_shin_matsunaga
+recruit_character = POZ_bjorn_abust
+recruit_character = POZ_wily_glardle
+recruit_character = POZ_aiguille_delaz
+recruit_character = POZ_detrov_kossel
+recruit_character = POZ_dorize
+recruit_character = POZ_anavel_gato
+recruit_character = POZ_kelly_layzner
+recruit_character = POZ_kurt
+recruit_character = POZ_top
+recruit_character = POZ_arth
+recruit_character = POZ_barry
+recruit_character = POZ_dell
+recruit_character = POZ_runen
