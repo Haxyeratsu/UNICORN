@@ -27,4 +27,4 @@ Features that will be implemented in the future
 - Extra Module slots for MS
 
 ## DISCLAIMER
-> This repository is not a downloadable mod but a proof of concept that it exists and that is being worked on.
+> *This repository is not a downloadable mod but a proof of concept that it exists and that is being worked on.*
