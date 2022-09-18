@@ -2,7 +2,7 @@
 ![release](https://img.shields.io/github/v/release/Haxyeratsu/UNICORN)
 ![size](https://img.shields.io/github/languages/code-size/Haxyeratsu/UNICORN)
 
-# Gihren no Yabou
+# CODENAME: UNICORN
 A total conversion mod for Hearts of Iron 4 codenamed UNICORN, spanning the whole Universal Century timeline starting in January 1st of 
 UC0076 with an end date of UC00173.
 
